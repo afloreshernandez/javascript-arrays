@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="js/index.js"></script>
+    <script>
+
+// Create an empty student array.
+// Prompt the user to input five separate names.
+// Push each name onto the array.
+// Alert the second name in the array.
+
+const studentList=[];
+
+const student1 = prompt('enter student 1 name: ');
+const student2 = prompt('enter student 2 name: ');
+const student3 = prompt('enter student 3 name: ');
+const student4 = prompt('enter student 4 name: ');
+const student5 = prompt('enter student 5 name: ');
+
+studentList.push(student1);
+studentList.push(student2);
+studentList.push(student3);
+studentList.push(student4);
+studentList.push(student5);
+
+alert(studentList[1]);
+
+// Prompt the user for an index.
+// Alert the student name at the index provided
+
+const indexNumber = prompt('Enter any index');
+
+alert(studentList[indexNumber]);
+
+
+</script>
